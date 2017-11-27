@@ -1,0 +1,15 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: maven
+    tag: 3.3.9-jdk-7
+
+inputs:
+- name: spring-music-src
+
+run:
+  path: spring-music-src/ci/int-test.sh
+  args: ["spring-music-dev.apps.pcfdemo.net"]
