@@ -12,4 +12,4 @@ inputs:
 
 run:
   path: spring-music-src/ci/int-test.sh
-  args: ["spring-music-dev.apps.pcfdemo.net"]
+  args: ["spring-music-stg.apps.pcfdemo.net"]
