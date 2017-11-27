@@ -1,0 +1,17 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: busybox}
+
+inputs:
+- name: spring-music-src
+- name: release
+- name: version
+
+outputs:
+- name: cf-out
+
+run:
+  path: spring-music-src/ci/cp-last-build.sh
