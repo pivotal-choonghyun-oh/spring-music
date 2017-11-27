@@ -1,0 +1,19 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: niaquinto/gradle
+    tag: latest
+#    repository: maven
+#    tag: 3.3.9-jdk-7
+
+inputs:
+- name: spring-music-src
+- name: version
+
+outputs:
+- name: build-out
+
+run:
+  path: spring-music-src/ci/spring-build.sh
