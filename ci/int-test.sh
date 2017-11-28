@@ -3,7 +3,7 @@
 BASE_URL=$1
 
 echo "+====================================================+"
-echo "|   Spring Music Integeration Test : V1              |"
+echo "|   Spring Music Integeration Test : V2              |"
 echo "|   host : $BASE_URL                                  "
 echo "+====================================================+"
 
