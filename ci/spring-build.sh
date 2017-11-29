@@ -4,7 +4,7 @@ VERSION=`cat version/number`
 
 wget ftp://ftpuser:ftpuser@192.168.219.102/m2-cache.tar.gz
 
-tar zxvf ./m2-cache.tar.gz -C ~
+tar zxf ./m2-cache.tar.gz -C ~
 
 cd spring-music-src
 
