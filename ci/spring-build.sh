@@ -1,6 +1,12 @@
 #!/bin/sh
 
 VERSION=`cat version/number`
+cd ~
+
+wget ftp://ftpuser:ftpuser@localhost/m2-cache.tar.gz
+
+tar zxvf ./m2-cache-.tar.gz
+
 cd spring-music-src
 
 echo "New version num : $VERSION ..."
