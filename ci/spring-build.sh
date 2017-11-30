@@ -5,7 +5,8 @@ VERSION=`cat version/number`
 #wget ftp://ftpuser:ftpuser@192.168.219.102/m2-cache.tar.gz
 #tar zxf ./m2-cache.tar.gz -C ~
 
-wget ftp://ftpuser:ftpuser@192.168.219.102/gradle-cache.tgz
+#wget ftp://ftpuser:ftpuser@192.168.219.102/gradle-cache.tgz
+wget ftp://ftpuser:ftpuser@60.93.213.81/gradle-cache.tgz
 tar zxf ./gradle-cache.tgz -C ~
 
 cd spring-music-src
